@@ -30,6 +30,11 @@ function UpdateBookComponent(props) {
         };
         console.log(b);
         axios
+
+
+
+
+        
           .put(URI + '/' + book.bid, book)
           .then((response) => console.log(response.data))
           .catch((error) => console.log(error));
